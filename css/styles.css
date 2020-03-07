@@ -174,6 +174,14 @@ p {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
   h3 {
     text-align: center;
   }
@@ -187,19 +195,21 @@ p {
   }
 
   .logo {
-    width: 200px;
-    height: 75%;
+    width: 100px;
+    height: 50%;
   }
 
   .navigation-button {
-    font-size: .75rem;
+    font-size: .50rem;
+    width: auto;
+    height: auto;
   }
 
   .top-container-button {
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 16px 36px;
     margin-top: 25px;
-    width: 300px;
+    width: 250px;
   }
 
   .statistics-container {
@@ -225,7 +235,7 @@ p {
   }
 
   .grow-together-image, .your-users-image, .flowing-together-image {
-    margin: 20px 0;
+    margin: 0 0 100px 0;
     text-align: center;
   }
 
